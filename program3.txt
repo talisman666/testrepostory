@@ -17,7 +17,6 @@ namespace ConsoleApp5
             string voltageTram = tram1.GetPrintableVoltage(600);
             Console.WriteLine(voltageTram);
             string tramAvSpeedDifference = tram1.GetAverageSpeedDifference(20);
-            Console.WriteLine(tramAvSpeedDifference);
 
 
         }
