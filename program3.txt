@@ -11,7 +11,7 @@ namespace ConsoleApp5
 
             Metro metro1 = new Metro(80);
             string voltageMetro = metro1.GetPrintableVoltage(800);
-            
+            Console.WriteLine ("Hello, World!");
 
             Tram tram1 = new Tram("Tram 2");
             string voltageTram = tram1.GetPrintableVoltage(600);
