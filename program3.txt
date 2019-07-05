@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            GroundTransport transport = new GroundTransport("transport");
+            transport.Print();
+
+            Metro metro1 = new Metro(80);
+            string voltageMetro = metro1.GetPrintableVoltage(800);
+            
+
+            Tram tram1 = new Tram("Tram 2");
+            string voltageTram = tram1.GetPrintableVoltage(600);
+            Console.WriteLine(voltageTram);
+            string tramAvSpeedDifference = tram1.GetAverageSpeedDifference(20);
+            Console.WriteLine(tramAvSpeedDifference);
+
+
+        }
+    }
+}
